@@ -1,0 +1,36 @@
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+.header-word{
+    margin-left: 5rem ;
+}
+.header{
+    height:5.25rem ;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight:300;
+font-size: 1.5rem
+}
+
+.carousel-wrap {
+    height:calc(100vh - 5.25rem) ;
+    width:100% ;
+    overflow: hidden;
+    padding: 0px;
+    
+}
+
+.title {
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    left:calc(50vw - 125.125px);
+    top:85vh;
+}

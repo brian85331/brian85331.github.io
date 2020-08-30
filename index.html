@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cht">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chian-Jing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-dark text-white header">
+        <div class="row align-items-center justify-content-start header-word">
+            <img src="df1-slim.jpg" alt="logo" class="logo m-3">
+            <div class="company-name">
+                <h1 class="ml-1">Chian-Jing <br><h2>Art&amp;Design</h2>
+                </h1>
+            </div>
+        </div>
+    </div>
+<div class="text-center title">
+            <h3 class="display-4">Welcome!!
+            </h3>
+        </div>
+    <!--    輪播的大圖 開始-->
+    <div class="container-fluid bg-info carousel-wrap text-white">
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-danger">
+                        <img src="df3-cut-slim-1920x885.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-info">
+                        <img src="gs.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-primary">
+                        <img src="Alchemist-cut-slim-1920x885.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+    </script>
+    <script>
+        $('#carousel1').carousel({
+            interval: 3000,
+            pause: false
+        })
+    </script>
+</body></html>
