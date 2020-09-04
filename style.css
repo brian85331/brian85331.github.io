@@ -1,36 +1,100 @@
-
-.logo{
+.logo {
     height: 3rem;
     width: 3rem;
 }
-.header-word{
-    margin-left: 5rem ;
-}
-.header{
-    height:5.25rem ;
+
+.header-word {
+    margin-left: 5rem;
 }
 
+.header {
+    height: 5.25rem;
+    width: 100vw;
+    z-index: 4;
+    position: fixed;
+    top: 0px;
+    display: block;
+}
+
+.header-space {
+    height: 5.25rem;
+}
+.company-name{
+    position: absolute;
+    left: 180px;
+}
 h1 {
     font-weight: 400;
 }
 
 h2 {
-    font-weight:300;
-font-size: 1.5rem
+    font-weight: 300;
+    font-size: 1.5rem
+}
+.line{
+    background: #e8a231;
+    height: calc(2px + 0.1vw);
 }
 
 .carousel-wrap {
-    height:calc(100vh - 5.25rem) ;
-    width:100% ;
+    z-index: 4;
+    height: calc(100vh - 84px);
+    width: 100%;
     overflow: hidden;
     padding: 0px;
-    
+/*    position: relative;*/
+    /*        top:5.25rem;*/
+    box-sizing: border-box;
+    display: block;
+}
+
+.heroimage {
+    height: calc(100vh - 84px);
+    width: 100vw;
+    z-index: 3;
+/*    position: relative;*/
+    /* top: 5.25rem; */
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 .title {
     color: #fff;
+    z-index: 5;
+    top: 40vw;
+    width: 100vw;
+    height: calc(100vh - 84px);
     position: absolute;
-    z-index: 2;
-    left:calc(50vw - 125.125px);
-    top:85vh;
+    font-size: 50px;
+    
+    animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
 }
+@keyframes title{
+    from{
+        opacity: 100%
+    }
+    to{
+        opacity: 0%
+    }
+}
+.note {
+    font-size: 1.5rem;
+}
+
+.a {
+    height: 500px;
+    width:500px ;
+    position: relative;
+}
+.b{
+    height:50px ;
+    width:50px ;
+    position: absolute;
+    top: 50px;
+}
+

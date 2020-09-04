@@ -1,0 +1,14 @@
+.title {
+    top:45vw;
+    font-size:30px ;
+}
+.title .note{
+    font-size: 15px;
+}
+.header-word {
+    margin-left: 1rem;
+}
+.company-name{
+    left: 110px;
+    font-size: 12px;
+}
