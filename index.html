@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Chian-Jing</title>
+    <title>千景 Chian-Jing</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
     <link rel="stylesheet" href="style.css">
@@ -12,22 +12,25 @@
 </head>
 
 <body>
+
     <div class="container-fluid bg-dark text-white header">
         <div class="row align-items-center justify-content-start header-word">
             <img src="df1-slim.jpg" alt="logo" class="logo m-3">
-            <div class="row company-name text-align-center">
-                <h1 class="ml-3 mb-0 ">Chian-Jing
+            <div class="row company-name text-align-center mt-2">
+                <h1 class="col-5 ml-3 mb-0 text-nowrap">千景 Chian-Jing
                 </h1>
                 <div class="w-100"></div>
-                <h2 class="ml-3">Art&amp;Design</h2>
+                <div class="col-4 title-line ml-4 mt-1"></div>
+                <div class="w-100"></div>
+                <h2 class="col-5 ml-3 text-nowrap">Art &amp; Design</h2>
             </div>
         </div>
     </div>
     <div class="row header-space"></div><!-- header的實體位子 -->
     <div class="line"></div>
+    <!--    輪播的大圖 開始-->
     <div class="heroimage text-center p-0 ">
         <div class=" justify-content-center align-items-end ">
-            <!--    輪播的大圖 開始-->
             <div class=" carousel-wrap">
                 <div id="carousel1" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -62,25 +65,95 @@
                     </a>
                 </div>
             </div>
-            <!--    輪播的大圖 結束-->
         </div>
+        <!--    輪播的大圖 結束-->
         <h3 class="title display-4 justify-content-center">Welcome!!<br>
             <p class="note">往下看更多</p>
         </h3>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Chian-Jing</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="a bg-danger">
-        <div class="b bg-info"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- dropdown寫法 開始 -->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div> <!-- 線 -->
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li> <!-- dropdown寫法 結束 -->
+            </ul>
+        </div>
+    </nav>
+    <div class="about-me-bg pt-1">
+        <div class="about-me container mt-4 ">
+            <div class="row ml-3">
+                <div class="col-4">
+                    <p class="h2 mt-4">
+                        關於 千景 <p class="h4 text-nowrap mt-n2">About Chian-Jing</p>
+                        <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem qui, ab dolorum neque porro, officiis dolore laboriosam, nostrum ipsum necessitatibus quidem corporis. Facilis qui quis dolore, cupiditate facere inventore ullam.</p>
+                        <div class="contect-ways row ml-3">
+                            <div class="col-1 p-0 mr-3">
+                                <a href="">
+                                    <img src="facebook.svg" style="width:30px" alt="fb">
+                                </a>
+                            </div>
+                            <div class="col-1 mr-3"><a href="">
+                                    <img src="instagram-sketched.svg" style="width: 30px" alt="">
+                                </a></div>
+                            <div class="col-1 mr-3"><a href="">
+                                    <img src="youtube.svg" style="width: 30px" alt="">
+                                </a></div>
+                        </div>
+                        <button type="button" class="contect-me-btn btn btn-primary float-right ">
+                            <a href="">
+                                <p class="h4 text-white">Contect me</p>
+                            </a>
+                        </button>
+
+                </div>
+                <div class="col-4">
+                    <p class="h2 mt-4">經歷<p class="h4 text-no-wrap mt-n2">Experience</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, asperiores unde dignissimos atque vitae ipsam deleniti odio quasi sequi sint commodi, dolor totam tenetur officia rem dolorum necessitatibus ad modi deserunt ab eaque! Dolorem quia incidunt voluptatem numquam vitae velit et id minus ad esse aut consectetur mollitia, qui odio quae? Dolor illum, totam ut!</p>
+                </div>
+                <div class="col-4 mt-5 ">
+                    <img src="df1-slim.jpg" alt="#">
+                </div>
+
+            </div>
+        </div>
     </div>
-    11111
+
+
+
+
+
+
+
+
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> <!-- 導入jQuery CDN -->
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
+    </script> <!-- Bootstrap的js CDN之一 -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
-    </script>
+    </script> <!-- Bootstrap的js CDN之二 -->
     <script>
         $('#carousel1').carousel({
             interval: 5000,
