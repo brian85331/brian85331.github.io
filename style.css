@@ -8,21 +8,21 @@
 }
 
 .header {
-    height: 5.25rem;
-    width: 100vw;
-    z-index: 4;
+    height: 85px;
+    z-index: 10;
     position: fixed;
     top: 0px;
-    display: block;
 }
 
 .header-space {
     height: 5.25rem;
 }
-.company-name{
+
+.company-name {
     position: absolute;
     left: 180px;
 }
+
 h1 {
     font-weight: 400;
     font-size: 2rem;
@@ -32,53 +32,58 @@ h2 {
     font-weight: 300;
     font-size: 1.5rem
 }
-.line{
+
+.line {
     background: #e8a231;
     height: calc(2px + 0.1vw);
+        position: relative;
+    top:85px;
 }
 
 .carousel-wrap {
     z-index: 4;
     width: 100%;
+    /*    height:867px ;*/
     overflow: hidden;
     padding: 0px;
-/*    position: relative;*/
-    /*        top:5.25rem;*/
-    box-sizing: border-box;
-    display: block;
 }
 
 .heroimage {
-    width: 100vw;
     z-index: 3;
+    width: 100vw;
     margin: 0;
     padding: 0;
-    display: block;
+    position: relative;
+    top:85px;
+    overflow: hidden;
 }
 
 .title {
     color: #fff;
     z-index: 5;
-    top: 40vw;
     width: 100vw;
-    height: calc(100vh - 84px);
-    position: absolute;
+    /* height: calc(100vh - 84px); */
+    position: relative;
+    bottom: 160px;
     font-size: 50px;
-    
+
     animation-name: title;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in;
 }
-@keyframes title{
-    from{
+
+@keyframes title {
+    from {
         opacity: 100%
     }
-    to{
+
+    to {
         opacity: 0%
     }
 }
+
 .note {
     font-size: 1.5rem;
 }
@@ -99,34 +104,92 @@ h2 {
 .title-line {
     background: #e8a231;
     height: 0.1px;
-    width: 250px ;
+    width: 250px;
 }
 
 .about-me {
     background: #fff;
-    height: 400px;
     position: relative;
 }
 
 .about-me-bg {
     background: #eee;
-    height:450px ;
 }
 
 .contact-ways {
     height: 200px;
 }
 
-.contect-me-btn {
-    position: absolute;
-    bottom:0 ;
-    right:10px;
-}
+
 
 
 
 .contect-ways {
-    position: absolute;
-    bottom:0 ;
+    position: relative;
+    bottom: 0;
     left: 0;
+}
+
+
+
+.exprience-text {
+    max-height: 240px;
+}
+
+.expertise-bg {
+    background: #eee;
+    height: 450px;
+}
+
+.expertise {
+    background: #fff;
+    height: 400px;
+    position: relative;
+}
+
+.gd {
+    width: 200px;
+    height: 200px;
+}
+
+.il {
+    width: 180px;
+    height: 180px;
+}
+
+.ci {
+    width: 170px;
+    height: 170px;
+}
+
+.expertise-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.gd-p {
+    text-align: center;
+}
+
+.il-p {
+    text-align: center;
+}
+
+.ci-p {
+    text-align: center;
+}
+
+.title {}
+
+.title {}
+
+.about-text {
+    max-height: 240px;
+    overflow: hidden;
+}
+
+.contect-me-btn {
 }

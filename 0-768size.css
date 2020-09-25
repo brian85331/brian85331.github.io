@@ -11,3 +11,6 @@
 .company-name{
     left: 110px;
 }
+.company-name h1{
+    font-size: 25px;
+}
